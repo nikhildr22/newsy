@@ -1,0 +1,121 @@
+[
+  {
+    "category": "Software Engineering & Architecture",
+    "search_queries": [
+      "Angular release update",
+      ".NET Core new version",
+      "SQL Server Management Studio update",
+      "Angular breaking changes",
+      ".NET performance improvements"
+    ],
+    "search_string": "Angular released a new major version with updated routing, signals API changes, and standalone component improvements. The .NET Core framework shipped a new release with performance gains, runtime changes, and updated NuGet packages. SQL Server Management Studio added new query editor features, IntelliSense updates, and database tooling improvements.",
+    "match_criteria": "Accept any article reporting a new release, version update, breaking change, migration guide, or significant feature addition for Angular, .NET Core, .NET runtime, ASP.NET, or SQL Server Management Studio. Reject opinion pieces, comparisons with unrelated frameworks, or articles that only mention these tools in passing."
+  },
+  {
+    "category": "VS Code & AI Tooling",
+    "search_queries": [
+      "VS Code new release features",
+      "VS Code extension AI copilot",
+      "Visual Studio Code update changelog",
+      "VS Code GitHub Copilot integration",
+      "VS Code dev containers update"
+    ],
+    "search_string": "Visual Studio Code shipped a new release with improved GitHub Copilot integration, new extension APIs, terminal enhancements, and AI-assisted code completion. Developers are using new VS Code features like inline chat, multi-file edits, and remote development tools to accelerate their workflow.",
+    "match_criteria": "Accept any article about a new VS Code release, extension update, GitHub Copilot feature, or AI coding tool that integrates with VS Code. Reject generic productivity articles that mention VS Code only as an example, or articles about unrelated IDEs."
+  },
+  {
+    "category": "Indian Stock Market",
+    "search_queries": [
+      "NIFTY 50 today",
+      "Sensex crash rally",
+      "RBI monetary policy decision",
+      "India stock market FII flows",
+      "India inflation GDP data"
+    ],
+    "search_string": "The NIFTY 50 and Sensex indices fell sharply amid foreign institutional investor selling and concerns over rising inflation and RBI rate decisions. India's stock market reacted to GDP growth data, fiscal deficit numbers, and global macroeconomic signals including US Federal Reserve policy and crude oil prices.",
+    "match_criteria": "Accept any article reporting significant movement in NIFTY 50 or Sensex, RBI policy decisions, FII/DII flows, Indian inflation or GDP data, or major macroeconomic events directly affecting Indian markets. Reject articles about individual stocks unless they caused a broad market move, and reject generic global finance articles with no India angle."
+  },
+  {
+    "category": "Trekking & Outdoors Karnataka",
+    "search_queries": [
+      "Karnataka trek trail update",
+      "Western Ghats trekking conditions",
+      "Coorg Chikmagalur trek news",
+      "Karnataka forest department trekking",
+      "monsoon trek Karnataka"
+    ],
+    "search_string": "Trekking trails in Karnataka's Western Ghats including routes near Coorg, Chikmagalur, Kodachadri, and Kumara Parvatha have been affected by heavy rainfall and landslides. The Karnataka Forest Department issued safety advisories and temporarily closed certain trails. New trekking routes were opened near Sakleshpur and Bisle Ghat.",
+    "match_criteria": "Accept any article about trekking trail conditions, safety advisories, trail openings or closures, weather affecting treks, or new routes in Karnataka or the Western Ghats. Reject unrelated tourism or travel articles about Karnataka that do not specifically mention trekking or outdoor trail activity."
+  },
+  {
+    "category": "AI & LLM Developments",
+    "search_queries": [
+      "new LLM model release",
+      "OpenAI Anthropic Google AI update",
+      "AI agent framework release",
+      "foundation model benchmark results",
+      "AI reasoning model release"
+    ],
+    "search_string": "OpenAI, Anthropic, Google DeepMind, and Meta released new large language models with improved reasoning, coding, and multimodal capabilities. A new AI model set a benchmark record on coding and math evaluations. Researchers published results showing significant improvements in agent-based AI systems that can autonomously complete multi-step tasks.",
+    "match_criteria": "Accept any article announcing a new AI model release, significant benchmark result, major AI research finding, or new agentic AI framework. Reject generic articles about AI hype, broad opinion pieces about AI's societal impact, or articles that mention AI only in passing without a concrete new development."
+  },
+  {
+    "category": "Health & Medical Research",
+    "search_queries": [
+      "clinical trial results breakthrough",
+      "new medical research study findings",
+      "WHO health advisory 2025",
+      "cancer treatment new drug approval",
+      "mental health research findings"
+    ],
+    "search_string": "A peer-reviewed study published in The Lancet or NEJM found that a new drug or treatment significantly reduced mortality in patients with a major disease. The FDA approved a novel therapy after successful phase 3 clinical trials. Researchers discovered a new mechanism linking lifestyle factors to chronic disease risk, with implications for public health guidelines.",
+    "match_criteria": "Accept any article reporting a significant new medical study result, drug or therapy approval, WHO or ICMR health advisory, or major clinical trial finding. The finding should be concrete and specific, not a general wellness trend. Reject clickbait health articles, generic diet advice, or articles that cite a study without reporting its actual findings."
+  },
+  {
+    "category": "Bangalore Weather & Environment",
+    "search_queries": [
+      "Bangalore weather forecast today",
+      "Bangalore rain flooding",
+      "Bangalore air quality AQI",
+      "Karnataka drought water shortage",
+      "Bangalore heatwave temperature"
+    ],
+    "search_string": "Bangalore received heavy rainfall causing waterlogging and flooding in low-lying areas. The IMD issued a yellow or red alert for Bangalore and surrounding districts. Bangalore's air quality index deteriorated due to construction dust and vehicle emissions. A water shortage warning was issued for parts of Bangalore following low reservoir levels.",
+    "match_criteria": "Accept any article about significant weather events in Bangalore or Karnataka (flooding, heatwave, IMD alerts), air quality updates, or water shortage warnings affecting Bangalore residents. Reject routine daily forecast summaries with no significant event, and reject general climate change opinion pieces."
+  },
+  {
+    "category": "Bangalore Outages & Disruptions",
+    "search_queries": [
+      "BESCOM power outage Bangalore",
+      "Bangalore water supply disruption BWSSB",
+      "Bangalore internet outage broadband",
+      "Bangalore gas supply disruption"
+    ],
+    "search_string": "BESCOM announced a scheduled power outage affecting several Bangalore wards due to maintenance work on high-tension lines. BWSSB suspended water supply to parts of Bangalore for pipeline repair. Internet service providers in Bangalore reported an outage affecting broadband and fiber connectivity in residential and commercial areas.",
+    "match_criteria": "Accept any article reporting a power outage, water supply disruption, internet or broadband outage, or gas supply interruption affecting Bangalore residents or businesses. The disruption must be specific (named areas, BESCOM/BWSSB/ISP involved) and currently happening or imminent. Reject historical retrospectives or generic infrastructure opinion pieces."
+  },
+  {
+    "category": "Bangalore Traffic & Metro",
+    "search_queries": [
+      "Namma Metro new station opening",
+      "Bangalore traffic signal update",
+      "Bangalore road closure diversion",
+      "BMTC new bus route Bangalore",
+      "Bangalore flyover construction update"
+    ],
+    "search_string": "Namma Metro extended its Purple or Green line with new station openings, reducing commute times across Bangalore. BBMP announced road closures and traffic diversions near Silk Board, Hebbal, and Marathahalli due to ongoing underpass and flyover construction. BMTC introduced new bus routes to connect outer ring road tech parks.",
+    "match_criteria": "Accept any article about Namma Metro expansion or new station openings, significant road closures or traffic diversions in Bangalore, new BMTC routes, or major infrastructure updates affecting Bangalore commuters. Reject general urban planning opinion pieces, and reject articles about other Indian cities' metro systems unless directly compared to Bangalore."
+  },
+  {
+    "category": "Cricket",
+    "search_queries": [
+      "India cricket match result today",
+      "IPL match scorecard",
+      "Test match day result",
+      "ICC tournament cricket update",
+      "India vs cricket series"
+    ],
+    "search_string": "India defeated Australia in the fourth Test match, with Virat Kohli scoring a century and Jasprit Bumrah taking five wickets. The IPL match between Mumbai Indians and Chennai Super Kings ended in a last-over thriller. India qualified for the ICC Champions Trophy final after a convincing win in the semi-finals.",
+    "match_criteria": "Accept any article reporting a cricket match result, scorecard, tournament standings update, or series news — including Test matches, ODIs, T20Is, IPL, and ICC events. The article must report an actual result, score, or concrete update. Reject transfer rumours, opinion columns, and articles that discuss cricket only in a cultural or historical context with no current match news."
+  }
+]
