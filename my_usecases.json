@@ -33,7 +33,7 @@
       "India inflation GDP data"
     ],
     "search_string": "The NIFTY 50 and Sensex indices fell sharply amid foreign institutional investor selling and concerns over rising inflation and RBI rate decisions. India's stock market reacted to GDP growth data, fiscal deficit numbers, and global macroeconomic signals including US Federal Reserve policy and crude oil prices.",
-    "match_criteria": "Accept any article reporting significant movement in NIFTY 50 or Sensex, RBI policy decisions, FII/DII flows, Indian inflation or GDP data, or major macroeconomic events directly affecting Indian markets. Reject articles about individual stocks unless they caused a broad market move, and reject generic global finance articles with no India angle."
+    "match_criteria": "Accept articles reporting significant index-level movements in NIFTY 50 or Sensex (crashes, rallies, sharp intraday swings with a clear cause explained), RBI policy decisions and rate changes, FII/DII flow data with market impact analysis, Indian inflation or GDP data releases, or major macroeconomic events directly affecting Indian markets. REJECT the following types of articles even if they mention NIFTY or Sensex: (1) intraday ticker summaries \u2014 'Stock Market Today Live', 'GIFT Nifty pre-open', 'market today setup', 'stocks to buy or sell today', '7 stocks to watch' \u2014 these are live dashboards not news; (2) US or global market articles with no India angle; (3) single-stock analysis or earnings reports unless they caused a broad index move; (4) generic economic opinion editorials with no specific data point or event."
   },
   {
     "category": "Trekking & Outdoors Karnataka",
@@ -116,6 +116,6 @@
       "India vs cricket series"
     ],
     "search_string": "India defeated Australia in the fourth Test match, with Virat Kohli scoring a century and Jasprit Bumrah taking five wickets. The IPL match between Mumbai Indians and Chennai Super Kings ended in a last-over thriller. India qualified for the ICC Champions Trophy final after a convincing win in the semi-finals.",
-    "match_criteria": "Accept any article reporting a cricket match result, scorecard, tournament standings update, or series news — including Test matches, ODIs, T20Is, IPL, and ICC events. The article must report an actual result, score, or concrete update. Reject transfer rumours, opinion columns, and articles that discuss cricket only in a cultural or historical context with no current match news."
+    "match_criteria": "Accept any article reporting a cricket match result, scorecard, tournament standings update, or series news - including Test matches, ODIs, T20Is, IPL, and ICC events. The article must report an actual result, score, or concrete update. Reject transfer rumours, opinion columns, and articles that discuss cricket only in a cultural or historical context with no current match news."
   }
 ]

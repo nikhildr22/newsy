@@ -554,7 +554,7 @@ async def evaluate_article(
         "specific player, team, event, or phrasing.\n"
         "2. Reject generic news, clickbait, or articles that only mention the topic in passing.\n"
         "3. Respond ONLY with valid JSON:\n"
-        '   {"is_match": <bool>, "summary": "<one sentence or null if rejected>", '
+        '   {"is_match": <bool>, "summary": "<2-3 sentences with specific facts and why they matter or null if rejected>", '
         '"rejection_reason": "<concise explanation of why rejected, or null if accepted>"}'
     )
     user_msg = f"Title: {article.title}\n\nContent:\n{safe_content}"
