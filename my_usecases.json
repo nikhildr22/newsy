@@ -60,18 +60,6 @@
     "match_criteria": "Accept any article announcing a new AI model release, significant benchmark result, major AI research finding, or new agentic AI framework. Reject generic articles about AI hype, broad opinion pieces about AI's societal impact, or articles that mention AI only in passing without a concrete new development."
   },
   {
-    "category": "Health & Medical Research",
-    "search_queries": [
-      "clinical trial results breakthrough",
-      "new medical research study findings",
-      "WHO health advisory 2025",
-      "cancer treatment new drug approval",
-      "mental health research findings"
-    ],
-    "search_string": "A peer-reviewed study published in The Lancet or NEJM found that a new drug or treatment significantly reduced mortality in patients with a major disease. The FDA approved a novel therapy after successful phase 3 clinical trials. Researchers discovered a new mechanism linking lifestyle factors to chronic disease risk, with implications for public health guidelines.",
-    "match_criteria": "Accept any article reporting a significant new medical study result, drug or therapy approval, WHO or ICMR health advisory, or major clinical trial finding. The finding should be concrete and specific, not a general wellness trend. Reject clickbait health articles, generic diet advice, or articles that cite a study without reporting its actual findings."
-  },
-  {
     "category": "Bangalore Weather & Environment",
     "search_queries": [
       "Bangalore weather forecast today",
