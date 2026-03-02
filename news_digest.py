@@ -248,6 +248,7 @@ async def get_embeddings(texts: list[str], cfg: Config) -> list[list[float]]:
                 "model": cfg.embedding_model,
                 "input": texts,
                 "encoding_format": "float",
+                "only" :['nebius']
             },
         )
 
@@ -568,6 +569,7 @@ async def evaluate_article(
                 {"role": "user", "content": user_msg},
             ],
             response_format={"type": "json_object"},
+            extra_body={"only": ["groq"]},
             max_retries=cfg.max_retries,
             base_delay=cfg.retry_base_delay,
         )
